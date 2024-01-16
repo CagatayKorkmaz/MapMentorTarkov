@@ -10,14 +10,11 @@ a {
     text-decoration: none;
 }
 @font-face {
-    font-family: 'Bender'; /* Fontun adı */
-    src: url('img/bender.regular.otf') format('otf'), /* Font dosyasının yolunu ve formatını belirtin */
+    font-family: "Bender";
+    src: url("img/Bender.woff") format("woff");
+    src: url("img/Bender.woff2") format("woff2");
+    src: url("img/Bender.ttf") format("ttf");
 }
-.selected {
-    background: url(img/latest.png)!important;
-    color: #dcd0a8!important;
-}
-
 
 .navbar {
     position: absolute;
