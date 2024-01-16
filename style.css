@@ -3,14 +3,18 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: 'Bender', 'Times New Roman', serif;
     background-color: #454037;
 }
-
 a {
     text-decoration: none;
+}
+@font-face {
+    font-family: "Bender";
+    src: url("img/Bender.woff") format("woff");
+    src: url("img/Bender.woff2") format("woff");
+    src: url("img/Bender.ttf") format("woff");
 }
 
 .showcase__navbar {
