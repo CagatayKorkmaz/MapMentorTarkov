@@ -12,9 +12,9 @@ a {
 }
 @font-face {
     font-family: "Bender";
-    src: url("img/Bender.woff") format("woff");
-    src: url("img/Bender.woff2") format("woff");
-    src: url("img/Bender.ttf") format("woff");
+    src: url("contents/img/Bender.woff") format("woff");
+    src: url("contents/img/Bender.woff2") format("woff2");
+    src: url("contents/img/Bender.ttf") format("ttf");
 }
 
 .showcase__navbar {
