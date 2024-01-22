@@ -54,45 +54,12 @@
             <div class="showcase__map">
                 <img src="img/maps/interchange.jpg" id="zoomable-image">
             </div>
-            <div class="changethemap">
-                <div class="map" id="changeimage" style="background-image: url(img/maps/interchange.jpg);"></div>
-                <div class="map" id="changeimage2" style="background-image: url(img/maps/interchange2.jpg);"></div>
-            </div>
         </section>
     </main>
 
 
 
 <script src="script.js"></script>
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-    var changeimage = document.getElementById("changeimage");
-    var changeimage2 = document.getElementById("changeimage2");
-    var image = document.getElementById("zoomable-image");
-
-    changeimage.addEventListener("click", function () {
-        showImage("img/maps/interchange.jpg");
-    });
-
-    changeimage2.addEventListener("click", function () {
-        showImage("img/maps/interchange2.jpg");
-    });
-
-    function showImage(imageName) {
-        // Resmin src'sini değiştir
-        image.src = imageName;
-
-        // Butonları kontrol et ve gizle
-        if (imageName === "img/maps/interchange.jpg") {
-            changeimage.style.display = "none";
-            changeimage2.style.display = "inline-block";
-        } else if (imageName === "img/maps/interchange2.jpg") {
-            changeimage.style.display = "inline-block";
-            changeimage2.style.display = "none";
-        }
-    }
-});
-</script>
 
 <script>
     // JavaScript kodları
